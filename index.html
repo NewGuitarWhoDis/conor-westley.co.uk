@@ -1,118 +1,101 @@
 <!DOCTYPE html>
 
 <head>
-  <meta charset="uft-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Conor Westley</title>
-  <link
-    rel="icon"
-    type="image/png"
-    href="code/assets/images/terminal-icon.png"
-    width="32px"
-  />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Dosis:300,400,700"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-  />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="code/assets/css/style.css" />
-  <script type="text/javascript" src="code/assets/js/main.js"></script>
+    <meta charset="uft-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Conor Westley</title>
+    <link rel="icon" type="image/png" href="code/assets/images/terminal-icon.png" width="32px" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="code/assets/css/style.css" />
+    <script type="text/javascript" src="code/assets/js/main.js"></script>
 </head>
 
 <body>
-  <div id="loader">
-    <div id="loaded"></div>
-  </div>
-  <!-- <nodes.js embedding> -->
-  <script type="text/javascript" src="code/assets/js/nodes.js"></script>
-  <script type="text/javascript">
-    var nodesjs = new NodesJs({
-      id: "nodes",
-      width: window.innerWidth,
-      height: window.innerHeight,
-      particleSize: 2,
-      lineSize: 1,
-      particleColor: [0, 255, 0, 0.3],
-      lineColor: [0, 255, 0],
-      backgroundFrom: [0, 0, 0],
-      backgroundTo: [0, 0, 0],
-      backgroundDuration: 4000,
-      nobg: false,
-      number: window.hasOwnProperty("orientation") ? 30 : 100,
-      speed: 20,
-    });
-  </script>
-  <div
-    style="
+    <div id="loader">
+        <div id="loaded"></div>
+    </div>
+    <!-- <nodes.js embedding> -->
+    <script type="text/javascript" src="code/assets/js/nodes.js"></script>
+    <script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: "nodes",
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 2,
+            lineSize: 1,
+            particleColor: [0, 255, 0, 0.3],
+            lineColor: [0, 255, 0],
+            backgroundFrom: [0, 0, 0],
+            backgroundTo: [0, 0, 0],
+            backgroundDuration: 4000,
+            nobg: false,
+            number: window.hasOwnProperty("orientation") ? 30 : 100,
+            speed: 20,
+        });
+    </script>
+    <div style="
       position: absolute;
       left: 0px;
       top: 0px;
       overflow: hidden;
       width: 100%;
       height: 100%;
-    "
-  >
-    <canvas id="nodes" class="background"></canvas>
-  </div>
-  <!-- </nodes.js embedding> -->
-  <script type="text/javascript">
-    window.onresize = function () {
-      nodesjs.setWidth(window.innerWidth);
-      nodesjs.setHeight(window.innerHeight);
-    };
-  </script>
-  <div class="terminal">
-    <p class="delay1">Booting up</p>
-    <p class="delay2">DONE</p>
-    <p class="delay3">Preparing content</p>
-    <p class="delay4">DONE</p>
-    <p class="delay5">Creating awesomeness</p>
-    <p class="delay6">DONE</p>
-    <p class="delay7">Ordering pizza</p>
-    <p class="delay8">PROCESSING...</p>
-  </div>
-  <div class="main-title">
-    <h1>Conor Westley</h1>
-    <h2>I code stuff and things.</h2>
-    <div class="social-buttons">
-      <button
-        type="btn"
-        onclick="window.location.href='https://www.instagram.com/conor_westley/'"
-      >
+    ">
+        <canvas id="nodes" class="background"></canvas>
+    </div>
+    <!-- </nodes.js embedding> -->
+    <script type="text/javascript">
+        window.onresize = function() {
+            nodesjs.setWidth(window.innerWidth);
+            nodesjs.setHeight(window.innerHeight);
+        };
+    </script>
+    <div class="terminal">
+        <p class="delay1">Booting up</p>
+        <p class="delay2">DONE</p>
+        <p class="delay3">Preparing content</p>
+        <p class="delay4">DONE</p>
+        <p class="delay5">Creating awesomeness</p>
+        <p class="delay6">DONE</p>
+        <p class="delay7">Ordering pizza</p>
+        <p class="delay8">PROCESSING...</p>
+    </div>
+    <div class="main-title">
+        <h1 aria-label=" CONOR WESTLEY" class="blast-root"> 
+            <span class="blast" aria-hidden="true" style="opacity: 1;">C</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">o</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">n</span> 
+            <span class="blast" aria-hidden="true" style="opacity: 1;">o</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">r</span>
+            <span class="space" aria-hidden="true" style="opacity: 1;">_</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">W</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">e</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">s</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">t</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">l</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">e</span>
+            <span class="blast" aria-hidden="true" style="opacity: 1;">y</span>
+        </h1>
+        <h2>I code stuff and things.</h2>
+        <div class="social-buttons">
+            <button type="btn" onclick="window.location.href='https://www.instagram.com/conor_westley/'">
         <i class="fa fa-instagram fa-2x" class="btn-icon"></i>Instagram
       </button>
-      <button
-        type="btn"
-        onclick="window.location.href='https://twitter.com/ConorWestley'"
-      >
+            <button type="btn" onclick="window.location.href='https://twitter.com/ConorWestley'">
         <i class="fa fa-twitter fa-2x" class="btn-icon"></i>Twitter
       </button>
-      <button
-        type="btn"
-        onclick="window.location.href='https://github.com/NewGuitarWhoDis'"
-      >
+            <button type="btn" onclick="window.location.href='https://github.com/NewGuitarWhoDis'">
         <i class="fa fa-github fa-2x" class="btn-icon"></i>Github
       </button>
-      <button type="btn" href="">
-        <i class="fa fa-microchip fa-2x" class="btn-icon"></i>Projects
+            <button type="btn" onclick="window.location.href='html/projects.html'">
+        <i class=" fa fa-microchip fa-2x " class="btn-icon "></i>Projects
       </button>
+        </div>
     </div>
-  </div>
 </body>
