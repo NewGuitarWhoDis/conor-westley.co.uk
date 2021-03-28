@@ -55,7 +55,7 @@ h1 {
 }
 
 .blast:hover {
-  color: aqua;
+  color: #20c20e;
   animation: Jiggle;
   animation-duration: 1000ms;
   animation-fill-mode: forwards;
