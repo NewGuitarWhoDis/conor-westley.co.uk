@@ -1,2 +1,2 @@
-# conor-westley.co.uk
+# conorwestley.co.uk
 Repository for my website.
